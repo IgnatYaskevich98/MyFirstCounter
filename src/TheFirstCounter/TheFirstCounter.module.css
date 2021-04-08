@@ -1,0 +1,45 @@
+.screenTheFirstCounter {
+    border: 2px solid azure;
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+    background-color: #6c1bd7;
+    display: grid;
+    justify-content: center;
+    align-items: inherit;
+
+}
+
+.screenValue {
+    border: 2px solid azure;
+    height: 100px;
+    width: 200px;
+    border-radius:  10px;
+    background-color: azure ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenTheFirst .buttonFirst {
+    display: grid;
+    justify-content: center;
+}
+
+.buttonFirst {
+    border: 2px solid azure;
+    background-color: azure;
+    border-radius:  10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+}
+
+.valueRed{
+    color: red;
+}
+
+
+

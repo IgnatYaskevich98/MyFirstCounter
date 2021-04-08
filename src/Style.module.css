@@ -1,0 +1,14 @@
+.app {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4c4a4a;
+
+}
+
+.counters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

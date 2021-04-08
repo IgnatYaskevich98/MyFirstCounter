@@ -1,0 +1,38 @@
+.screenTheSecondCounter {
+    border: 2px solid azure;
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+    background-color: #6c1bd7;
+    display: grid;
+    justify-content: center;
+    align-items: inherit;
+
+}
+
+.inputs {
+    border: 1px solid azure;
+    height: 90%;
+    display: grid;
+    justify-content: initial;
+}
+
+.screenInputs {
+    border: 1px solid azure;
+    height: 90%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenButton {
+    border: 1px solid azure;
+    width: 200px;
+    height: 50px;
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

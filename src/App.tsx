@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import style from './Style.module.css'
+import {TheFirstCounter} from "./TheFirstCounter/TheFirstCounter";
+import {TheSecondСounter} from "./TheSecondCounter/TheSecondCounter";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let [value, setValue] = useState(0);
+    return (
+        <div className={style.app}>
+            <div className={style.counters}>
+                <TheFirstCounter value={value} setValue={setValue}/>
+            </div>
+            <div className={style.counters}>
+                <TheSecondСounter/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
