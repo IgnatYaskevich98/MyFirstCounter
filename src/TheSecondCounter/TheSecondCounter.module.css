@@ -19,6 +19,7 @@
 
 .screenInputs {
     border: 1px solid azure;
+    border-radius: 10%;
     height: 90%;
     background-color: azure;
     display: flex;

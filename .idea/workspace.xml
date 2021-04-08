@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b91fd3-412c-4d54-b44e-ee0b2fdd2188" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Counter/MyCounterExample/src/TheFirstCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Counter/MyCounterExample/src/TheFirstCounter.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/ButtonTheFirstCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheFirstCounter/ButtonTheFirstCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/TheFirstCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheFirstCounter/TheFirstCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/WindowTheFirstCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheFirstCounter/WindowTheFirstCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/ButtonTheSecondCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSecondCounter/ButtonTheSecondCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/InputsTheSecondCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSecondCounter/InputsTheSecondCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\incubator\MyFirstCouter\my-app\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -42,6 +51,9 @@
       <workItem from="1617903922682" duration="15000" />
       <workItem from="1617904422194" duration="12000" />
       <workItem from="1617904437080" duration="319000" />
+      <workItem from="1617904844448" duration="79000" />
+      <workItem from="1617904942875" duration="1239000" />
+      <workItem from="1617906379263" duration="4257000" />
     </task>
     <servers />
   </component>
@@ -58,6 +70,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />

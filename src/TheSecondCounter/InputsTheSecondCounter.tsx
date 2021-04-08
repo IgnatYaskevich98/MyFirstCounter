@@ -1,13 +1,33 @@
-import React from "react";
+import React, {ChangeEvent} from "react";
 import style from './TheSecondCounter.module.css'
 
-export const InputTheSecondCounter = () => {
+
+type InputTheSecondCounterPropsType = {
+    max: number
+    min: number
+    setMax: (value: number) => void
+    setMin: (value: number) => void
+}
+
+export const InputTheSecondCounter = (props: InputTheSecondCounterPropsType) => {
+    let changeMax = (e: ChangeEvent<HTMLInputElement>) => {
+        let value = Number(e.currentTarget.value)
+        props.setMax(value)
+    }
+    let changeMin = (e: ChangeEvent<HTMLInputElement>) => {
+        let value = Number(e.currentTarget.value)
+        props.setMin(value)
+    }
     return (
         <div className={style.inputs}>
             <div>Max</div>
-            <input type="number"/>
+            <input type="number"
+                   value={props.max}
+                   onChange={changeMax}/>
             <div>Min</div>
-            <input type="number"/>
+            <input type="number"
+                   value={props.min}
+                   onChange={changeMin}/>
         </div>
     )
 }
