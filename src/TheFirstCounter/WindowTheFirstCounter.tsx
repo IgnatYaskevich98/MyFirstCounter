@@ -5,10 +5,11 @@ type WindowTheFirstCounterPropsType = {
     value: number
     max: number
     text: boolean
+
+
 }
 
 export const WindowTheFirstCounter = (props: WindowTheFirstCounterPropsType) => {
-
     return (
         <div className={style.windowTheFirst}>
             <div className={props.value >= props.max && props.value !== 0 ? style.valueRed : ''}>

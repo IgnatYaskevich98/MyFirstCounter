@@ -18,6 +18,10 @@ export const InputTheSecondCounter = (props: InputTheSecondCounterPropsType) => 
         let value = Number(e.currentTarget.value)
         props.setMin(value)
     }
+    let error = props.min === props.max || props.max < 0 || props.min < 0 || props.max < props.min
+    if (error){
+
+    }
     return (
         <div className={style.inputs}>
             <div>Max</div>

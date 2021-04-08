@@ -1,6 +1,5 @@
 import React from "react";
 import style from './TheSecondCounter.module.css'
-import {InputTheSecondCounter} from "./InputsTheSecondCounter";
 
 type ButtonTheSecondCounterPropsType = {
     max: number
@@ -19,9 +18,12 @@ export const ButtonTheSecondCounter = (props: ButtonTheSecondCounterPropsType) =
             props.setButton(true)
         }
     }
+    let error = props.min === props.max || props.max < 0 || props.min < 0 || props.max < props.min
+    let disabled = props.min === props.max || props.min < 0 || props.max < 0
     return (
         <div>
-            <button onClick={setClick}>set value
+            <button className={error ? style.error : ''}
+                    onClick={setClick} disabled={disabled}>set value
             </button>
         </div>
     )
