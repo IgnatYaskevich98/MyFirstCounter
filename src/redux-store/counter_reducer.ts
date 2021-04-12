@@ -16,7 +16,7 @@ export  type ActionTypes = ReturnType<typeof addValueAC>
     | ReturnType<typeof setButtonAC>
 
 
-export const countReducer = (state: InitialStatePropsType = initialState, action: ActionTypes) => {    // 1     (ВАЖНО передать данные по default  (initialState)
+export const countReducer = (state: InitialStatePropsType = initialState, action: ActionTypes): InitialStatePropsType=> {    // 1     (ВАЖНО передать данные по default  (initialState)
     switch (action.type) {
         case ADD_VALUE:
             return {

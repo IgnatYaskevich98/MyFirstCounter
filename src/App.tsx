@@ -18,42 +18,54 @@ function App() {
     const value1 = useSelector<AppStateType, number>((state) => state.count.startValue)
     // useSelector(принимает тип редакса и тип возварщаемого значеня)
 
-    const maxValue = useSelector<AppStateType, number>((state) => state.count.max)
-    const minValue = useSelector<AppStateType, number>((state) => state.count.min)
-    const newText = useSelector<AppStateType, boolean>((state) => state.count.text)
-    const newButton = useSelector<AppStateType, boolean>((state) => state.count.button)
-
+    // const maxValue = useSelector<AppStateType, number>((state) => state.count.max)
+    // const minValue = useSelector<AppStateType, number>((state) => state.count.min)
+    // const newText = useSelector<AppStateType, boolean>((state) => state.count.text)
+    // const newButton = useSelector<AppStateType, boolean>((state) => state.count.button)
+    const {max, min, button, text} = useSelector((state: AppStateType) => state.count)
     const dispatch = useDispatch()       //   инкрементит REDUCER
 
+    const [firstDisabled, setFirstDisabled] = useState(true)
+    const [secondDisabled, setSecondDisabled] = useState(false)
 
     return (
         <div className={style.app}>
             <div className={style.counters}>
                 <FirstCounter
+                    firstDisabled={firstDisabled}
+                    setFirstDisabled={setFirstDisabled}
+                    setSecondDisabled={setSecondDisabled}
                     // value={value}
                     // setValue={setValue}
-                    min={minValue}
-                    max={maxValue}
-                    text={newText}
+                    // min={min}
+                    // max={max}
+                    // text={text}
                     // setText={setText}
-                    dispatch={dispatch}
-                    startValue={value1}
-                    button ={newButton}
+                    // dispatch={dispatch}
+                    // startValue={value1}
+                    // button ={button}
 
                 />
             </div>
             <div className={style.counters}>
-                <SecondCounter max={maxValue}
-                               min={minValue}
-                               // setMax={setMax}
-                               // setMin={setMin}
+                <SecondCounter
+                    firstDisabled={firstDisabled}
+                    setFirstDisabled={setFirstDisabled}
+                    secondDisabled={secondDisabled}
+                    setSecondDisabled={setSecondDisabled}
+
+                    //  dispatch={dispatch}
+                    //   max={max}
+                    // min={min}
+                    // setMax={setMax}
+                    // setMin={setMin}
                     // value={value}
                     // setValue={setValue}
-                               text={newButton}
-                               // setText={setText}
-                               button={newButton}
-                               // setButton={setButton}
-                               dispatch={dispatch}
+                    // text={text}
+                    // setText={setText}
+                    //button={button}
+                    // setButton={setButton}
+                    //   dispatch={dispatch}
 
                 />
             </div>

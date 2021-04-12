@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b91fd3-412c-4d54-b44e-ee0b2fdd2188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../$Recycle.Bin/S-1-5-21-3724898331-1151868863-1524332580-1001/$R0DTBXG.idea/gitToDo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../$Recycle.Bin/S-1-5-21-3724898331-1151868863-1524332580-1001/$RBKMYMY/.idea/my-app-redax.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../$Recycle.Bin/S-1-5-21-3724898331-1151868863-1524332580-1001/$RECIC0R/MyCounterExample/.idea/MyCounterExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../$Recycle.Bin/S-1-5-21-3724898331-1151868863-1524332580-1001/$RS2D9N2/copy/.idea/copy.iml" afterDir="false" />
-      <change afterPath="$USER_HOME$/AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/d84c28774db833ec_0" afterDir="false" />
-      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/WebStorm2021.1/terminal/history/package.json-history2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Codewards/.idea/Codewards.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS-ForStudents/Lesson-10/.idea/Lesson-10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS-ForStudents/lesson-9/.idea/lesson-9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheFirstCounter/FirstCounter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheSecondCounter/SecondCounter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-store/counter_reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-store/redux_store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/Native/.idea/Heello.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/Native/Example/.idea/Example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/Native/Lesson3/.idea/Lesson3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/Native/lesson4/.idea/lesson4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/Native/lesson5/.idea/lesson5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/Native/lesson6/.idea/lesson6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Passed/calculator/.idea/calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../newNative/.idea/newNative.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Counter/MyCounterExample/src/ButtonCounter1.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Counter/MyCounterExample/src/TheFirstCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Counter/MyCounterExample/src/TheSecondCouner.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/ButtonTheFirstCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/TheFirstCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/WindowTheFirstCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/ButtonTheSecondCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/InputsTheSecondCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheFirstCounter/FirstCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheFirstCounter/FirstCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/SecondCounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSecondCounter/SecondCounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSecondCounter/TheSecondCounter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux-store/counter_reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-store/counter_reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +89,8 @@
       <workItem from="1618124452080" duration="22000" />
       <workItem from="1618158917592" duration="2493000" />
       <workItem from="1618162000875" duration="168000" />
+      <workItem from="1618221304294" duration="113000" />
+      <workItem from="1618225094496" duration="4347000" />
     </task>
     <task id="LOCAL-00001" summary="NewCounter">
       <created>1617910829738</created>
@@ -135,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617912656679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add redux">
+      <created>1618221387101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618221387101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +136,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="NewCounter" />
     <MESSAGE value="addError to min vs max" />
-    <option name="LAST_COMMIT_MESSAGE" value="addError to min vs max" />
+    <MESSAGE value="add redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redux" />
   </component>
 </project>
