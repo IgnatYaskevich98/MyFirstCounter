@@ -21,14 +21,13 @@ type TheFirstCounterPropsType = {
 }
 export const FirstCounter = (props: TheFirstCounterPropsType) => {
 
-    const {max, text, startValue} = useSelector((state: AppStateType) => state.count)
+    const {max, text, value} = useSelector((state: AppStateType) => state.count)
 
     const dispatch = useDispatch()
     let onClick = () => {
-        debugger
         // let addValue = props.min <= props.value ? props.setValue((props.value + 1)) : '';
         dispatch(addValueAC())
-        max - 1 <= startValue ? props.setFirstDisabled(true) : props.setFirstDisabled(false)
+        max - 1 <= value ? props.setFirstDisabled(true) : props.setFirstDisabled(false)
 
     }
     let resetClick = () => {
@@ -45,8 +44,8 @@ export const FirstCounter = (props: TheFirstCounterPropsType) => {
         <div className={style.screenTheFirstCounter}>
             <div className={style.screenValue}>
                 <div className={style.windowTheFirst}>
-                    <div className={startValue >= max && startValue !== 0 ? style.valueRed : ''}>
-                        {text ? <h1>SET VALUE</h1> : <h1>{startValue}</h1>}
+                    <div className={value >= max && value !== 0 ? style.valueRed : ''}>
+                        {text ? <h1>SET VALUE</h1> : <h1>{value}</h1>}
                     </div>
                 </div>
             </div>
@@ -54,7 +53,7 @@ export const FirstCounter = (props: TheFirstCounterPropsType) => {
                 <div className={style.buttonFirst}>
                     <div>
                         <button onClick={onClick} disabled={props.firstDisabled}>inc</button>
-                        <button onClick={resetClick} disabled={startValue < 1}>reset</button>
+                        <button onClick={resetClick} disabled={value < 1}>reset</button>
                     </div>
                 </div>
             </div>

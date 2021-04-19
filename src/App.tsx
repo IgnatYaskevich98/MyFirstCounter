@@ -8,23 +8,6 @@ import {AppStateType} from "./redux-store/redux_store";
 
 
 function App() {
-    // let [value, setValue] = useState(0);
-    // let [max, setMax] = useState(0)
-    // let [min, setMin] = useState(0)
-    // let [text, setText] = useState(true)
-    // let [button, setButton] = useState(false)
-
-
-    const value1 = useSelector<AppStateType, number>((state) => state.count.startValue)
-    // useSelector(принимает тип редакса и тип возварщаемого значеня)
-
-    // const maxValue = useSelector<AppStateType, number>((state) => state.count.max)
-    // const minValue = useSelector<AppStateType, number>((state) => state.count.min)
-    // const newText = useSelector<AppStateType, boolean>((state) => state.count.text)
-    // const newButton = useSelector<AppStateType, boolean>((state) => state.count.button)
-    const {max, min, button, text} = useSelector((state: AppStateType) => state.count)
-    const dispatch = useDispatch()       //   инкрементит REDUCER
-
     const [firstDisabled, setFirstDisabled] = useState(true)
     const [secondDisabled, setSecondDisabled] = useState(false)
 

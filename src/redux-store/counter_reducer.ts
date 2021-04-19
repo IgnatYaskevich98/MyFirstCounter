@@ -1,7 +1,7 @@
 type InitialStatePropsType = typeof initialState    //  автоматическая типизация
 
 const initialState = {        /*  4  */
-    startValue: 0,
+    value: 0,
     min: 0,
     max: 0,
     text: true,
@@ -21,11 +21,11 @@ export const countReducer = (state: InitialStatePropsType = initialState, action
         case ADD_VALUE:
             return {
                 ...state,
-                startValue: state.startValue + 1
+                value: state.value + 1
             }
         case  RESET_VALUE :
             return {
-                ...state, startValue: 0
+                ...state, value: 0
             }
         case CHANGE_MAX:
             return {
@@ -37,7 +37,7 @@ export const countReducer = (state: InitialStatePropsType = initialState, action
             }
         case SET_VALUE:
             return {
-                ...state, startValue: action.newValue
+                ...state, value: action.newValue
             }
         case SET_TEXT:
             return {
