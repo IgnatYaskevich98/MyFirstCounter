@@ -1,6 +1,6 @@
 import {combineReducers, createStore} from "redux"
 import {countReducer} from "./counter_reducer";
-import {current} from "@reduxjs/toolkit";
+import {loadState, saveState} from "../utils/LocalStorage-utils";
 
 
 const rootReducer = combineReducers({  // 2
@@ -9,9 +9,17 @@ const rootReducer = combineReducers({  // 2
 
 export type AppStateType = ReturnType<typeof rootReducer>   // типизация  Redux store
 
-export const store = createStore(rootReducer); // 3
+
+
+// const persistedTodosString = localStorage.getItem('app-state')
+// if (persistedTodosString){
+//     preloadedState = JSON.parse(persistedTodosString)
+// }
+
+export const store = createStore(rootReducer, loadState()); // 3
 
 store.subscribe(() => {
-    localStorage.setItem('app-store', JSON.stringify(store.getState()))
-    localStorage.setItem('', JSON.stringify(store.getState().count.value))
+   saveState({
+       count: store.getState().count
+   })
 })
