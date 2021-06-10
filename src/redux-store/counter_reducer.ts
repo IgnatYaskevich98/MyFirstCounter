@@ -1,6 +1,6 @@
 type InitialStatePropsType = typeof initialState    //  автоматическая типизация
 
-const initialState = {        /*  4  */
+const initialState = {
     value: 0,
     min: 0,
     max: 0,
@@ -16,7 +16,7 @@ export  type ActionTypes = ReturnType<typeof addValueAC>
     | ReturnType<typeof setButtonAC>
 
 
-export const countReducer = (state: InitialStatePropsType = initialState, action: ActionTypes): InitialStatePropsType=> {    // 1     (ВАЖНО передать данные по default  (initialState)
+export const countReducer = (state: InitialStatePropsType = initialState, action: ActionTypes): InitialStatePropsType => {
     switch (action.type) {
         case ADD_VALUE:
             return {
@@ -60,7 +60,7 @@ export const CHANGE_MIN = 'CHANGE_MIN'
 export const SET_TEXT = 'SET_TEXT'
 export const SET_BUTTON = 'SET_BUTTON'
 
-export const addValueAC = () => {    /*  5  */
+export const addValueAC = () => {
     return {
         type: ADD_VALUE
     } as const

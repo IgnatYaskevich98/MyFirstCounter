@@ -3,20 +3,13 @@ import {countReducer} from "./counter_reducer";
 import {loadState, saveState} from "../utils/LocalStorage-utils";
 
 
-const rootReducer = combineReducers({  // 2
+const rootReducer = combineReducers({
     count: countReducer
 })
 
 export type AppStateType = ReturnType<typeof rootReducer>   // типизация  Redux store
 
-
-
-// const persistedTodosString = localStorage.getItem('app-state')
-// if (persistedTodosString){
-//     preloadedState = JSON.parse(persistedTodosString)
-// }
-
-export const store = createStore(rootReducer, loadState()); // 3
+export const store = createStore(rootReducer, loadState());
 
 store.subscribe(() => {
    saveState({
